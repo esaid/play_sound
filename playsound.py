@@ -16,4 +16,6 @@ def play_sound(file_path):
         print("Error: 'aplay' command not found. Please ensure alsa-utils is installed.")
 
 if __name__ == "__main__":
-    play_sound("coq.wav")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    sound_file = os.path.join(script_dir, "coq.wav")
+    play_sound(sound_file)
