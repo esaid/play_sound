@@ -1,0 +1,17 @@
+{
+  "theme": "dark",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "all",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/esaid/PycharmProjects/play_sound/playsound.py",
+            "statusMessage": "Playing sound..."
+          }
+        ]
+      }
+    ]
+  }
+}
