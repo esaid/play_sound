@@ -14,3 +14,7 @@ This is a simple utility designed to play a sound file (`coq.wav`) using the Lin
 
 ## Requirements
 - Linux OS with `alsa-utils` installed (provides `aplay`).
+
+## Integration as Claude Code Hook
+To use this as a hook, configure a `Stop` hook in `settings.json` or `.claude/settings.local.json` to execute:
+`python3 /path/to/play_sound/playsound.py`
